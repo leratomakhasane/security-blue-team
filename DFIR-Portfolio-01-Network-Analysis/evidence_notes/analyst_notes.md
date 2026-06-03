@@ -175,13 +175,12 @@ Hiring managers assess investigative thinking, not ability to answer specific qu
 
 **Effective Filters Discovered:**
 ```
-
 dns.flags.response==1 # DNS responses only 
 tcp.stream eq X # Follow specific TCP stream 
 ftp.request.command # FTP commands issued 
 http.request.method # HTTP methods (GET, POST, etc.) 
 ip.addr==X && ip.addr==Y # Traffic between two specific hosts
-
+```
 **Filter Strategy:**
 - Start broad (protocol name)
 - Refine based on noise level
