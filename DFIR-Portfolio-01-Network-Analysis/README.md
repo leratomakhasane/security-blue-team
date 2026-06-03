@@ -38,7 +38,7 @@ Administrative credentials were transmitted in plaintext over HTTP, allowing the
 
 **Evidence:**
 
-![HTTP Credential Exposure](screenshots/02_http_credential_exposure.png)
+![HTTP Credential Exposure](images/02_http_credential_exposure.png)
 
 The HTTP stream exposed the password `sbt123` in cleartext.
 
@@ -50,7 +50,7 @@ The attacker used the captured credentials to authenticate to an FTP service run
 
 **Evidence:**
 
-![FTP Login Success](screenshots/03_ftp_login_success.png)
+![FTP Login Success](images/03_ftp_login_success.png)
 
 The FTP server response `230 Login successful` confirms successful authentication.
 
@@ -62,7 +62,7 @@ After authentication, the attacker retrieved malware and accessed confidential e
 
 **Evidence:**
 
-![FTP File Retrieval](screenshots/05_ftp_file_retrieval.png)
+![FTP File Retrieval](images/05_ftp_file_retrieval.png)
 
 Observed commands:
 - `RETR malware.exe` – malicious executable downloaded
@@ -105,7 +105,7 @@ Observed commands:
 
 ### Protocol Hierarchy Analysis
 
-![Protocol Overview](screenshots/01_protocol_overview.png)
+![Protocol Overview](images/01_protocol_overview.png)
 
 Protocol analysis identified HTTP and FTP as the primary protocols involved in the attack chain.
 
