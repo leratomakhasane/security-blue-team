@@ -130,7 +130,7 @@ The captured credentials were valid and provided the attacker with authenticated
 
 **Evidence:**
 
-![FTP File Retrieval Commands](images/05_ftp_file_retrieval.png)
+![FTP File Retrieval Commands](images/05_ftp_file_activity_and_file_access.png)
 
 **Analysis:**
 
