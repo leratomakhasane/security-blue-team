@@ -182,6 +182,8 @@ ftp.request.command # FTP commands issued
 http.request.method # HTTP methods (GET, POST, etc.) 
 ip.addr==X && ip.addr==Y # Traffic between two specific hosts
 
+
+```
 **Filter Strategy:**
 - Start broad (protocol name)
 - Refine based on noise level
